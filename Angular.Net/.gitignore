@@ -25,6 +25,8 @@ bin/
 Bin/
 obj/
 Obj/
+WebAPIs.AspNetCore.ExistingDb/bin
+WebAPIs.AspNetCore.ExistingDb/obj
 
 # Visual Studio 2015 cache/options directory
 .vs/
