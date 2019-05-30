@@ -1,0 +1,13 @@
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\bin\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.deps.json
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\bin\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.runtimeconfig.json
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\bin\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.runtimeconfig.dev.json
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\bin\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.dll
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\bin\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.pdb
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.csproj.CoreCompileInputs.cache
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.RazorAssemblyInfo.cache
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.RazorAssemblyInfo.cs
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.AssemblyInfoInputs.cache
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.AssemblyInfo.cs
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.RazorTargetAssemblyInfo.cache
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.dll
+C:\Users\oksana\Documents\Visual Studio 2017\Projects\Angular.Net\WebAPIs.AspNetCore.ExistingDb\obj\Debug\netcoreapp2.1\WebAPIs.AspNetCore.ExistingDb.pdb

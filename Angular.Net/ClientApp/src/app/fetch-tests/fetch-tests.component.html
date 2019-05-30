@@ -1,0 +1,28 @@
+<h1>{{header}}</h1>
+
+<p *ngIf="!traineeTests"><em>Loading...</em></p>
+
+<table class='table' *ngIf="traineeTests">
+  <thead>
+    <tr>      
+      <th>Test Description</th>
+      <th>Subject Name</th>
+      <th>Test Status</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tests of traineeTests">
+      <td>{{tests.testDescription}}</td>
+      <td>{{tests.subjectName}}</td>
+      <td>{{tests.testStatus}}</td>
+      <td>          
+        <button class="btn btn-danger" (click)="removeTest(tests.traineeTestId)">Delete</button>      
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<span *ngIf="traineeId"><a href="#" [routerLink]="['/add-trainee-test', traineeId, traineeName]" 
+  class="btn btn-primary" role="button">Add</a></span>
+<button class="btn btn-primary" (click)="goBack()">Back</button>

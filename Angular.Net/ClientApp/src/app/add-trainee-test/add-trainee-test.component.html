@@ -1,0 +1,50 @@
+<h1>{{header}}</h1>
+
+<form *ngIf="traineeTestFill else empty" #testForm="ngForm" (ngSubmit)="addTest(testForm.form);">
+  <div class="form-group">
+    <label for="testDescript">Test:</label>    
+    <select [(ngModel)]="traineeTest.testId" class="form-control" ngModel #testDescript="ngModel" id="testDescript" name="testDescript" required>
+        <option value=""></option>      
+        <option [value]="test.testId" *ngFor="let test of traineeTestFill.tests">
+          {{test.description}}
+        </option>
+    </select>
+    <div class="alert alert-danger" *ngIf="testDescript.touched && testDescript.errors && testDescript.errors.required">
+      The test is required
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="subjectName">Subject:</label>
+    <select [(ngModel)]="traineeTest.subjectCode" class="form-control" ngModel #subjectName="ngModel" id="subjectName" name="subjectName" required>
+        <option value=""></option>
+        <option [value]="subject.subjectCode" *ngFor="let subject of traineeTestFill.subjects">
+          {{subject.name}}
+        </option>        
+    </select>
+    <div class="alert alert-danger" *ngIf="subjectName.touched && subjectName.errors && subjectName.errors.required">
+      The subject is required
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="testStatus">Status:</label>
+    <select [(ngModel)]="traineeTest.testStatus" class="form-control" ngModel #testStatus="ngModel" id="testStatus" name="testStatus" required>
+        <option value=""></option>
+        <option [value]="status" *ngFor="let status of traineeTestFill.statuses">
+            {{status}}
+        </option>
+    </select>
+    <div class="alert alert-danger" *ngIf="testStatus.touched && testStatus.errors && testStatus.errors.required">
+      The status is required
+    </div>
+  </div>
+  
+  <div class="form-group">
+      <button type="submit" class="btn btn-primary" [disabled]="!testForm.valid">Add</button>
+      <button (click)="goBack()" class="btn btn-primary" role="button">Back</button>
+  </div>
+
+</form>
+
+<ng-template #empty> Loading... </ng-template>

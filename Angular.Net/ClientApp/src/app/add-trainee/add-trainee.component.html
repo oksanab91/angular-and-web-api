@@ -1,0 +1,17 @@
+<h1>Add Trainee</h1>
+
+<form>
+  <div class="form-group">
+    <label for="traineeName">Name:</label>
+    <input [(ngModel)]="trainee.traineeName" class="form-control" 
+      placeholder="Name" type="text" required name="traineeName" maxlength="20" #traineeName/>    
+    <div class="alert alert-danger" *ngIf="traineeName.errors && traineeName.errors.maxlength">
+        The trainee name should be less then 20 characters long
+    </div>    
+  </div>
+ 
+  <div class="form-group">
+    <button (click)="addTrainee()" class="btn btn-primary">Save</button>
+    <button (click)="goBack()" class="btn btn-primary" role="button">Cancel</button>
+  </div>
+</form>

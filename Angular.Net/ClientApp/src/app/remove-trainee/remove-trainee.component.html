@@ -1,0 +1,18 @@
+<h1>Delete Trainee</h1>
+
+<form *ngIf="trainee else empty">
+  <div class="form-group">
+    <label for="id">Id:</label>
+    <input type="text" class="form-control" id="id" value="{{trainee.traineeId}}" disabled="true">
+  </div>
+
+  <div class="form-group">
+    <label for="tr">Name:</label>
+    <input type="text" class="form-control" id="tr" value="{{trainee.traineeName}}" disabled="true">
+  </div>
+
+  <button (click)="removeTrainee()" class="btn btn-primary">Delete</button>
+  <button (click)="goBack()" class="btn btn-primary" role="button">Cancel</button>
+</form>
+
+<ng-template #empty> Loading... </ng-template>

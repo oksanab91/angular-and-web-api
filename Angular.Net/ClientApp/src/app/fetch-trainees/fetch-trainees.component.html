@@ -1,0 +1,35 @@
+<h1>Trainees</h1>
+
+<p *ngIf="!trainees"><em>Loading...</em></p>
+
+<table class='table' *ngIf="trainees">
+  <thead>
+    <tr>      
+      <th>Trainee Id</th>
+      <th>Trainee Name</th>
+      <th></th>
+      <th></th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trainee of trainees">
+      <td>{{trainee.traineeId}}</td>
+      <td>{{trainee.traineeName}}</td>
+      <td>        
+        <a [routerLink]="['/fetch-tests', trainee.traineeId, trainee.traineeName]">Tests Details</a>        
+      </td>
+      <td>
+        <span><a href="#" routerLink="/edit-trainee/{{trainee.traineeId}}" 
+        class="btn btn-primary" role="button">Edit</a></span>
+      
+        <span><a href="#" routerLink="/remove-trainee/{{trainee.traineeId}}" 
+          class="btn btn-danger" role="button">Delete</a></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-primary" (click)="goBack()">Back</button>
+<span><a href="#" routerLink="/add-trainee" class="btn btn-primary" role="button">
+  Add</a>
+</span>
