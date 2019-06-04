@@ -53,5 +53,7 @@
 
 - Run `ng serve` for a dev server.
 
-##### Useful info: 
+##
+
+### Useful info: 
 [Use the Angular project template with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-2.2&tabs=visual-studio)
